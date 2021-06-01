@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.weather_content{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color:white;
+    margin: 2em;
+}
+.title{
+    height: 7em;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-bottom: 1.5em;
+}
+.activate_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
