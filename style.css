@@ -11,9 +11,10 @@ body{
     gap: 2em;
     justify-content: center;
     align-items: center;
-    text-align: left;
-    background-color:white;
+    text-align: left; 
     margin: 2em;
+    background-color: aliceblue;
+    padding: 1em;
 }
 .title{
     height: 7em;
@@ -30,3 +31,13 @@ body{
     margin: 1em 0;
 }
 
+#city_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#user_generated_content{
+    width: 80%;
+    margin: 0 auto;
+}

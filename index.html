@@ -17,7 +17,7 @@
     <input oninput="get_q(this)" type="text" id="user_city"> 
     <div class=activate_buttons>
         <select name="units" id="units" onchange="define_units(this)">
-            <option value="Pick One">Pick One</option>
+            <option value="PickOne">Pick One</option>
             <option value="imperial">Imperial</option>
             <option value="metric">Metric</option>
         </select>
@@ -26,14 +26,19 @@
     <div id="not_activated">
         <p>You have not activated the weather finder yet.</p>
     </div>
-    <div class="weather_content">
-        <div id="left_col">
-            <!-- innerHTML goes here -->
+    <section id="user_generated_content">
+        <div id="city_header">
+            <!-- city title -->
         </div>
-        <div id="right_col">
-            <!-- innerHTML goes here -->
+        <div class="weather_content">
+            <div id="left_col">
+                <!-- innerHTML goes here -->
+            </div>
+            <div id="right_col">
+                <!-- innerHTML goes here -->
+            </div>
         </div>
-    </div>  
+    </section>
 <script src="script.js"></script>
 </body>
 </html>
